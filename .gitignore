@@ -1,0 +1,21 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Runtime sessions and mutable data
+auth_info/
+data/
+sessions/
+logs/
+*.log
+
+# Dependencies and generated files
+node_modules/
+coverage/
+.DS_Store
+
+# Generated or uploaded media
+assets/botcustom_media/
